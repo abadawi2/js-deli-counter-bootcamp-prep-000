@@ -24,6 +24,6 @@ function currentLine(katzDeliLine) {
     var name = katzDeliLine[i]+' '
     string += (i+1) + '. ' + name + ',';
   }
-  var finalString = string.slice
+  var finalString = string.slice()
     return finalString
   }
