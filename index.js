@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
   var string = ['The line is currently: '];
   for (var i = 0; i < katzDeliLine.length; i++){
     var name = katzDeliLine[i]+' '
-    string += (i+1) + '. ' + name + ',';
+    string += (i+1) + '. '+name+',';
   }
   var finalString = string.slice(katzDeliLine[i],string.length)
     return finalString
